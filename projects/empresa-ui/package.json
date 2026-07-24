@@ -1,0 +1,21 @@
+{
+  "name": "@alexandermontoya233/empresa-ui",
+  "version": "0.1.0",
+  "description": "Angular UI component library based on PrimeNG",
+  "keywords": [
+    "angular",
+    "ui",
+    "primeng",
+    "components"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^20.3.26",
+    "@angular/core": "^20.3.26"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0",
+    "primeng": "^20.4.0",
+    "@primeuix/themes": "^1.2.3"
+  },
+  "sideEffects": false
+}
