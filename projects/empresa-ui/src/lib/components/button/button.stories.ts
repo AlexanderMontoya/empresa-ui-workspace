@@ -5,7 +5,7 @@ import { Button } from './button';
 import {provideEmpresaUI} from './../../providers/provide-empresa-ui';
 
 const meta: Meta<Button> = {
-  title: 'Components/Button',
+  title: 'Components/LibButton',
   component: Button,
   decorators: [
     (story, context) => applicationConfig({
@@ -15,7 +15,16 @@ const meta: Meta<Button> = {
         })
       ]
     })(story, context)
-  ]
+  ],
+  tags: ['autodocs'],
+
+  parameters: {
+        docs: {
+        description: {
+            component: `Botón reutilizable para acciones del usuario.`
+        }
+        }
+    }
 };
 
 export default meta;
@@ -27,8 +36,7 @@ export const Primary: Story = {
     label: 'Guardar'
   }
 };
-
-export const Delete: Story = {
+export const Secondary: Story = {
   args: {
     label: 'Eliminar'
   }

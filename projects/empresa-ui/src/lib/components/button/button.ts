@@ -18,8 +18,4 @@ export class Button {
     'warn' |
     'danger'
   >('info'); */
-
-  hola(){
-    console.log("hola");
-  }
 }

@@ -31,7 +31,9 @@ const preview: Preview = {
 
         sessionStorage.setItem('__storybook_theme_reload__', '1');
 
-        location.reload();
+        requestAnimationFrame(() => {
+          location.reload();
+        });
 
       }
 
