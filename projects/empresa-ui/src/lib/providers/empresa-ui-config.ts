@@ -1,6 +1,9 @@
 export type EmpresaUITheme =
-  | 'aura'
-  | 'hamburguesa';
+  //| 'aura'
+  | 'hamburguesa'
+  //| 'temaOscuro'
+  | 'oceanTheme'
+  | 'forestTheme';
 
 
 export interface EmpresaUIConfig {

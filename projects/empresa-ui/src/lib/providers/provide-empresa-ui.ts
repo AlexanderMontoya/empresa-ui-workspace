@@ -14,7 +14,7 @@ export function provideEmpresaUI(
   config: EmpresaUIConfig = {}
 ) {
   const theme =
-    EMPRESA_THEMES[config.theme ?? 'aura'];
+    EMPRESA_THEMES[config.theme ?? 'forestTheme'];
 
 
   return makeEnvironmentProviders([

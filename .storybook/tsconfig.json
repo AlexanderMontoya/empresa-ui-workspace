@@ -1,0 +1,21 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "bundler"
+  },
+  "include": [
+    "../projects/empresa-ui/src/lib/components/**/*.ts",
+    "../projects/**/*.stories.ts",
+    "./preview.ts"
+  ],
+  "exclude": [
+    "../**/*.spec.ts",
+    "../**/test.ts"
+  ],
+  "files": [
+    "./typings.d.ts"
+  ]
+}

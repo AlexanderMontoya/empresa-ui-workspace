@@ -15,7 +15,7 @@ export const appConfig: ApplicationConfig = {
     provideAnimationsAsync(),
 
     provideEmpresaUI({
-      theme: 'hamburguesa'
+      theme: 'temaOscuro'
     })
   ]
 };
