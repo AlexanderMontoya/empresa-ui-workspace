@@ -18,12 +18,13 @@ const meta: Meta<Button> = {
   ],
   tags: ['autodocs'],
 
-  parameters: {
-        docs: {
+    parameters: {
+      forceRemount: true,
+      docs: {
         description: {
-            component: `Botón reutilizable para acciones del usuario.`
+          component: `Botón reutilizable para acciones del usuario.`
         }
-        }
+      }
     }
 };
 

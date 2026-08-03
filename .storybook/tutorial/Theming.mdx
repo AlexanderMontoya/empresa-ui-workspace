@@ -1,0 +1,14 @@
+# Theming
+
+Empresa UI permite configurar el tema global mediante `provideEmpresaUI()` en el archivo `app.config.ts`.
+
+## Configuración
+
+```ts
+export const appConfig: ApplicationConfig = {
+  providers: [
+    provideEmpresaUI({
+      theme: 'hamburguesa'
+    })
+  ]
+};

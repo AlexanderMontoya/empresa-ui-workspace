@@ -17,7 +17,15 @@ const meta: Meta<LibSelect> = {
         })
       ]
     })(story, context)
-  ]
+  ],
+  tags: ['autodocs'],
+  parameters: {
+    docs: {
+      description: {
+        component: `Select reutilizable para acciones del usuario.`
+      }
+    }
+  }
 };
 
 export default meta;
